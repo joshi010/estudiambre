@@ -8,6 +8,20 @@ export default {
         {question: 'Cuál describe de mejor manera el postulado de identidad económica', options: ['La esencia del negocio o empresa, se reconoce la transacción que afecta a la organización', 'Indica que las operaciones y la información financiera de una organización son independientes. Identifica de quién es la información financiera que se presenta.', 'Consiste en asumir que la permanencia de una empresa en el mercado no tendrá límite o fin,  por lo que los estados financieros que se elaboren deben presentar los valores determinados conforme a las NIF'], answer: 1},
         {question: 'Cuál describe de mejor manera el postulado de negocio en marcha', options: ['La esencia del negocio o empresa, se reconoce la transacción que afecta a la organización', 'Indica que las operaciones y la información financiera de una organización son independientes. Identifica de quién es la información financiera que se presenta.', 'Consiste en asumir que la permanencia de una empresa en el mercado no tendrá límite o fin,  por lo que los estados financieros que se elaboren deben presentar los valores determinados conforme a las NIF'], answer: 2},
         {question: 'En qué consiste el postulado de devengación contable', options: ['Que los efectos de las transacciones y eventos económicos que afectan a una entidad deben reflejarse en la información financiera de la entidad', 'Indica que las operaciones y la información financiera de una organización son independientes. Identifica de quién es la información financiera que se presenta.', 'Establece que todos los costos y gastos de una empresa deben identificarse con el ingreso que generaron en el mismo período'], answer: 0},
+        {question: 'Cuál palabra describe de mejor forma el concepto: "Registro de eventos cuando suceden."', options: ['Devengación cobtable', 'Negocio en Marcha', 'Identidad económica'], answer: 0},
+        {question: 'Cuál palabra describe de mejor forma el concepto: "Definir la esencia del evento"', options: ['Devengación cobtable', 'Sustancia económica', 'Identidad económica'], answer: 1},
+        {question: 'Cuál palabra describe de mejor forma el concepto: "Hacia quién se hace el postulado."', options: ['Sustancia económica', 'Negocio en Marcha', 'Identidad económica'], answer: 2},
+        {question: 'Cuál palabra describe de mejor forma el concepto: "Que costos y gastos estén debajo de de los ingresos."', options: ['Devengación cobtable', 'Negocio en Marcha', 'Asociación de costos y gastos con los ingresos'], answer: 2},
+        {question: 'Cuál palabra describe de mejor forma el concepto: "Que todo vaya contablemente organizado en base a las NIF, poner un orden al registro contable"', options: ['Devengación cobtable', 'Negocio en Marcha', 'Identidad económica'], answer: 1},
+        {question: 'Cuál palabra describe de mejor forma el concepto: "Definir la esencia del evento."', options: ['Sustancia económica', 'Negocio en Marcha', 'Identidad económica'], answer: 0},
+        {question: 'Cuál palabra describe de mejor forma el concepto: "TODO se registra en dinero."', options: ['Devengación cobtable', 'Negocio en Marcha', 'Postulado de Valuación'], answer: 2},
+        
+
+
+
+
+
+
         
 
 

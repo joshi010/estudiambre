@@ -1,10 +1,10 @@
 export const data = [
     {
-        title: 'Contaduría',
+        title: 'Contabilidad',
         link: 'contaduria'
     },
-    {
-        title: 'Derecho',
-        link: 'derecho'
-    }
+    // {
+    //     title: 'Derecho',
+    //     link: 'derecho'
+    // }
 ]
