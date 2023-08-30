@@ -1,0 +1,36 @@
+.mosaic-container{
+    margin-top: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.card{
+    background-color: #160231;
+    color:aliceblue;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.points{
+    color: aliceblue;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 730px){
+    .mosaic-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
