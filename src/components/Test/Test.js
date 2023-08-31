@@ -13,6 +13,7 @@ export default function Test(){
     const [bien, setBien] = useState(0);
     const [mal, setMal] = useState(0);
     const [pop, setPop] = useState(false);
+    const [right, setRight] = useState();
 
     
     function randomNum(array){
@@ -43,6 +44,7 @@ export default function Test(){
         if(questions[quest].options[correct] === e){
             setPoints(x => x +1);
             setBien(x => x+1);
+            setRight((prev) => prev.filter((a) => a.question !== questions[quest].question));
             setQuest(randomNum(questions));
         } else {
             setPoints(x => x-1);
@@ -60,8 +62,8 @@ export default function Test(){
     return(
         <>
             <div className="hero">
-                {
-                    '¿' + questions[quest].question + '?'
+                { right ?
+                    '¿' + questions[quest].question + '?' : 'Cargando...'
                 }
             </div>
             <div className="points">
@@ -77,7 +79,7 @@ export default function Test(){
              </div>
             {
                 <div className="mosaic-container">
-                    <List  questions={questions} quest={quest} setCorrect={setCorrect} handleClick={handleClick} />
+                    <List  questions={questions} quest={quest} setCorrect={setCorrect} setRight={setRight} handleClick={handleClick} right={right} />
                 </div>
 
             }

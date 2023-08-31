@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 export default function List(props){
     const [shuffled, setShuffled] = useState(['loading']);
     const [quest, setQuest] = useState(props.quest);
-    const [copy, setCopy] = useState(JSON.parse(JSON.stringify(props.questions)));;
+    const [copy, setCopy] = useState(JSON.parse(JSON.stringify(props.questions)));
 
     const shuffle = (a) => {
         for(let i = a.length - 1; i > 0; i--) {
@@ -12,6 +12,10 @@ export default function List(props){
         }
         return a;
     }
+
+    useEffect(() => {
+        props.setRight([...props.questions]);
+    },[])
 
     useEffect(() => {
         setQuest(props.quest);
